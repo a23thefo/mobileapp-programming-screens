@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         click.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity.this, ActivityTwo.class);
                 intent.putExtra("msg", "Hej på dig!");
                 startActivity(intent);
             }
