@@ -17,7 +17,6 @@ public class ActivityTwo extends AppCompatActivity {
             String msg = extras.getString("msg");
             TextView text = (TextView) findViewById(R.id.msg);
             text.setText(msg);
-
         }
     }
 }
